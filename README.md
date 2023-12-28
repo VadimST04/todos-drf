@@ -13,7 +13,7 @@ By using this API, you can:
 + Update todos
 + List all todos
 
-To login users, I used <a href="https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html" target="_blank">Simple JWT</a>:
+To login users, I used <a href="https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html">Simple JWT</a>:
 ```python
 ...
 path('api/user/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
